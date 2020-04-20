@@ -19,51 +19,66 @@ body .container {
   padding:0 20px;
 }
 
-/* end general rules */
-
-/* top header  */
-
-body #topheader {
-  height: 85px;
-  background: #f5f8fa;
-  border-bottom: 1px solid #cbd6e2;
+body ul {
+  list-style-type: none;
 }
 
-body #topheader .navi-top {
- padding-top: 18px;
-}
-
-body #topheader .navi-top .top-left-logo {
+body .container .col {
   float: left;
 }
 
-body #topheader .navi-top .top-left-logo i{
- font-size: 18px;
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* end general rules */
+
+/* top header  */
+body #topheader {
+  background: #f5f8fa;
+  border-bottom: 1px solid black;
 }
 
-body #topheader .navi-top .top-right-login {
-  float: right;
+body #topheader .container .central-content {
+  padding: 15px 0;
 }
 
-body #topheader .navi-top ul li {
+body #topheader .container .central-content .top-left-logo {
+  text-align: left;
+  padding: 15px;
+}
+
+body #topheader .container .central-content .top-right-login {
+  text-align: right;
+  position: absolute;
+  left: 73%;
+}
+
+body #topheader .container .central-content  ul.list-top-left li {
   list-style-type: none;
   display: inline-block;
   font-size: 17px;
-  padding: 3px 10px;
   color: #33475b;
 }
 
-body #topheader .navi-top ul .globe-language {
-  border-right: 2px solid #cbd6e2;
+body #topheader .container .central-content  ul.list-top-left ul.list-language {
+  margin-right: 18px;
 }
 
-/* NOTE: vorrei fare l icona blu */
+body #topheader .container .central-content ul.list-top-left .fa-chevron-down {
+  border-right: 2px solid #cbd6e2;
+  padding-right: 14px;
+}
 
- /* body #topheader .top-right-login ul:first-child{
-  color: #23afc6;
-} */
+body #topheader .container .central-content  ul.list-top-right li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 17px;
+  color: #33475b;
+}
 
-body #topheader .navi-top ul .log-in-logo {
+body #topheader .container .central-content ul.list-top-right li.log-in-logo {
   border: 1px solid #ff7859;
   border-radius: 5px;
   background: white;
@@ -71,10 +86,10 @@ body #topheader .navi-top ul .log-in-logo {
   padding: 12px 16px;
   font-size: 13px;
   margin:0 15px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
-body #topheader .navi-top ul .orange-button {
+body #topheader .central-content ul.list-top-right li.orange-button {
   border-radius: 4px;
   background: #ff7859;
   color: white;
@@ -82,5 +97,45 @@ body #topheader .navi-top ul .orange-button {
   font-size: 13px;
   font-weight: 600;
 }
+/* end top header */
 
-/* end topheader */
+/* nav menu */
+
+body #nav-menu .container .central-content {
+  padding: 15px 0;
+}
+
+#nav-menu .container .central-content .logo-hubspot {
+ width: 44%;
+ padding: 10px;
+}
+
+#nav-menu .container .central-content .list ul li {
+  padding:15px 15px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#nav-menu .container .central-content  li i {
+  padding:0 15px;
+}
+/* end navi menu */
+
+/* jumbotron */
+
+body #jumbotron {
+  background-color: #fff5ef;
+  height: 542px;
+  background-size: 76%;
+  background-position: 79%;
+  background-repeat: no-repeat;
+  background-image: url(../img/jumbotron.png);
+  background-position-y: 28%;
+}
+
+body .space {
+  background: #afebe4;
+  height: 80px;
+  border-top: 3px solid#33465b;
+  border-bottom: 3px solid #33465b;
+}
