@@ -11,16 +11,19 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+body a {
+  text-decoration: none;
+}
+
+body ul {
+  list-style-type: none;
+}
 body .container {
   width: 1280px;
   margin: auto;
   height: 100%;
   position:relative;
   padding:0 20px;
-}
-
-body ul {
-  list-style-type: none;
 }
 
 body .container .col {
@@ -34,51 +37,52 @@ body .container .col {
 }
 /* end general rules */
 
+
 /* top header  */
-body #topheader {
+body header #topheader {
   background: #f5f8fa;
   border-bottom: 1px solid black;
 }
 
-body #topheader .container .central-content {
+body header #topheader .container .central-content {
   padding: 15px 0;
 }
 
-body #topheader .container .central-content .top-left-logo {
+body header #topheader .container .central-content .top-left-logo {
   text-align: left;
   padding: 15px;
 }
 
-body #topheader .container .central-content .top-right-login {
+body header #topheader .container .central-content .top-right-login {
   text-align: right;
   position: absolute;
   left: 73%;
 }
 
-body #topheader .container .central-content  ul.list-top-left li {
+body header #topheader .container .central-content  ul.list-top-left li {
   list-style-type: none;
   display: inline-block;
   font-size: 17px;
   color: #33475b;
 }
 
-body #topheader .container .central-content  ul.list-top-left ul.list-language {
+body header #topheader .container .central-content  ul.list-top-left ul.list-language {
   margin-right: 18px;
 }
 
-body #topheader .container .central-content ul.list-top-left .fa-chevron-down {
+body header #topheader .container .central-content ul.list-top-left .fa-chevron-down {
   border-right: 2px solid #cbd6e2;
   padding-right: 14px;
 }
 
-body #topheader .container .central-content  ul.list-top-right li {
+body header #topheader .container .central-content  ul.list-top-right li {
   list-style-type: none;
   display: inline-block;
   font-size: 17px;
   color: #33475b;
 }
 
-body #topheader .container .central-content ul.list-top-right li.log-in-logo {
+body header #topheader .container .central-content ul.list-top-right li.log-in-logo {
   border: 1px solid #ff7859;
   border-radius: 5px;
   background: white;
@@ -89,7 +93,7 @@ body #topheader .container .central-content ul.list-top-right li.log-in-logo {
   font-weight: 600;
 }
 
-body #topheader .central-content ul.list-top-right li.orange-button {
+body header #topheader .central-content ul.list-top-right li.orange-button {
   border-radius: 4px;
   background: #ff7859;
   color: white;
@@ -101,41 +105,78 @@ body #topheader .central-content ul.list-top-right li.orange-button {
 
 /* nav menu */
 
-body #nav-menu .container .central-content {
+body header #nav-menu .container .central-content {
   padding: 15px 0;
 }
 
-#nav-menu .container .central-content .logo-hubspot {
+body header #nav-menu .container .central-content .logo-hubspot {
  width: 44%;
  padding: 10px;
 }
 
-#nav-menu .container .central-content .list ul li {
+body header #nav-menu .container .central-content .list ul li {
   padding:15px 15px;
   display: inline-block;
   font-size: 16px;
 }
 
-#nav-menu .container .central-content  li i {
+body header #nav-menu .container .central-content  li i {
   padding:0 15px;
 }
 /* end navi menu */
 
 /* jumbotron */
 
-body #jumbotron {
+body header #jumbotron {
   background-color: #fff5ef;
   height: 542px;
-  background-size: 76%;
+  background-size: 79%;
   background-position: 79%;
   background-repeat: no-repeat;
   background-image: url(../img/jumbotron.png);
-  background-position-y: 28%;
+  background-position-y: 24%;
 }
 
-body .space {
+body header #jumbotron .container .jumbotron-text {
+  width: 700px;
+}
+
+body header #jumbotron .container .jumbotron-text {
+  text-align: left;
+  color: #33465b;
+  position: absolute;
+  top: 15%;
+}
+
+body header #jumbotron .container .jumbotron-text h1 {
+  font-size: 66px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+body header #jumbotron .container .jumbotron-text p {
+  padding: 25px 0;
+  font-weight: 100;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+body header #jumbotron .container .jumbotron-text a.orange-button {
+  border-radius: 4px;
+  background: #ff7859;
+  color: white;
+  padding: 20px 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+body .breaking-row {
   background: #afebe4;
   height: 80px;
   border-top: 3px solid#33465b;
   border-bottom: 3px solid #33465b;
+}
+
+main section.upper-section {
+  background-color: #f4f9fd;
 }
