@@ -4,7 +4,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* end reset */
+/* ends reset */
 
 /* general rules */
 body {
@@ -21,14 +21,12 @@ body ul {
   padding: 10px;
 }
 
-/* body .orange-button {
-  border-radius: 4px;
-  background: #ff7859;
-  color: white;
-  padding: 13px 8px;
-  font-size: 13px;
-  font-weight: 600;
-} */
+body .popolar-feat {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
+  padding: 15px 0;
+}
 
 body .container {
   width: 1280px;
@@ -50,9 +48,9 @@ body .container .col {
 
 body .fa-check-circle {
   color: orange;
+  margin: 0px 8px 0px 0;
 }
-
-/* end general rules */
+/* ends general rules */
 
 /* top header  */
 body header #topheader {
@@ -117,10 +115,9 @@ body header #topheader .central-content ul.list-top-right li.orange-button {
   font-size: 13px;
   font-weight: 600;
 }
-/* end top header */
+/* ends top header */
 
 /* nav menu */
-
 body header #nav-menu .container .central-content {
   padding: 15px 0;
 }
@@ -139,10 +136,9 @@ body header #nav-menu .container .central-content .list ul li {
 body header #nav-menu .container .central-content  li i {
   padding:0 15px;
 }
-/* end navi menu */
+/* ends navi menu */
 
 /* jumbotron */
-
 body header #jumbotron {
   background-color: #fff5ef;
   height: 542px;
@@ -185,6 +181,7 @@ body header #jumbotron .container .jumbotron-text a.orange-button {
   font-size: 14px;
   font-weight: 600;
 }
+/* ends jumbotron */
 
 body .breaking-row {
   background: #afebe4;
@@ -193,8 +190,7 @@ body .breaking-row {
   border-bottom: 3px solid #33465b;
 }
 
-/* main */
-
+/* main upper section*/
 main section.upper-section {
   background-color: #f4f9fd;
 }
@@ -226,6 +222,7 @@ main section.upper-section .container .up-main-container {
   width: 100%;
   border-radius: 18px;
   border: 1px solid #f2f2f2;
+  margin-bottom: 55px;
 }
 
 main section.upper-section .container .up-main-container .left-main-up-cont {
@@ -257,7 +254,7 @@ main section.upper-section .container .up-main-container .right-main-up-cont .te
   padding: 25px 0;
 }
 
-main section.upper-section .container .up-main-container .right-main-up-cont .text-right-up-cont span {
+main section.upper-section .container .up-main-container .right-main-up-cont .text-right-up-cont span.popolar-feat {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 21px;
@@ -283,10 +280,62 @@ main section.upper-section .container .up-main-container .right-main-up-cont .te
   padding: 24px 0;
 }
 
-/* hr {
-  display: inline-block;
-  vertical-align: middle;
-  width: 64%;
+main section.upper-section .container .middle-container .column {
+  width: 30%;
+  text-align: center;
+  background: white;
+  border: 1px solid #f2f2f2;
+  border-radius: 18px;
+  margin-bottom: 50px;
+}
+
+main section.upper-section .container .middle-container .column:nth-child(2) {
+  margin: 0 5%;
+}
+
+main section.upper-section .container .middle-container .column .marketing-image img {
+  height: 146px;
+  padding: 19px;
+}
+
+main section.upper-section .container .middle-container .column .text {
+  padding: 1px;
+}
+
+main section.upper-section .container .middle-container .column .text h3 {
+  font-size: 23px
+}
+
+main section.upper-section .container .middle-container .column .text p {
+  padding: 29px;
+  font-weight: 500;
+}
+
+main section.upper-section .container .middle-container .column hr {
+  margin: 21px 46px;
   border: 1px solid;
-  margin-left: 52px;
-} */
+}
+
+main section.upper-section .container .middle-container .column ul.pop-feat-list {
+  padding: 35px;
+}
+
+main section.upper-section .container .middle-container .column ul.pop-feat-list li {
+  text-align: left;
+}
+
+main section.upper-section .container .middle-container .column .button-learnmore {
+  padding-bottom: 23px;
+}
+
+main section.upper-section .container .middle-container .column .button-learnmore a.orange-button {
+  border-radius: 4px;
+  background: #ff7859;
+  color: white;
+  padding: 20px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* ends main upper section */
