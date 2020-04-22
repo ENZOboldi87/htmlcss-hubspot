@@ -14,11 +14,15 @@ body {
 
 body a {
   text-decoration: none;
+  color: inherit;
+}
+
+body i.fa-check-circle {
+  color: #ff7759;
 }
 
 body ul {
   list-style-type: none;
-  padding: 10px;
 }
 
 body .popolar-feat {
@@ -50,53 +54,72 @@ body .fa-check-circle {
   color: orange;
   margin: 0px 8px 0px 0;
 }
+
+.contact-button {
+  padding:20px 0px;
+}
+
+.contact-button .contact-button-grey {
+  border-radius: 8px;
+  background: #dfdfdf;
+  color: #49596c;
+  padding: 12px 7px;
+  font-size: 15px;
+  padding: 13px 7px;
+}
+
+footer {
+  color: #cbd6e2;
+}
+
 /* ends general rules */
 
 /* top header  */
-body header #topheader {
+#topheader {
   background: #f5f8fa;
   border-bottom: 1px solid black;
+
 }
 
-body header #topheader .container .central-content {
+#topheader .central-content {
   padding: 15px 0;
 }
 
-body header #topheader .container .central-content .top-left-logo {
+#topheader .central-content .top-left-logo {
   text-align: left;
   padding: 15px;
 }
 
-body header #topheader .container .central-content .top-right-login {
+#topheader .central-content .top-right-login {
   text-align: right;
   position: absolute;
   left: 73%;
 }
 
-body header #topheader .container .central-content  ul.list-top-left li {
+#topheader .central-content  ul.list-top-left li {
   list-style-type: none;
   display: inline-block;
   font-size: 17px;
   color: #33475b;
 }
 
-body header #topheader .container .central-content  ul.list-top-left ul.list-language {
+#topheader .central-content  ul.list-top-left ul.list-language {
   margin-right: 18px;
 }
 
-body header #topheader .container .central-content ul.list-top-left .fa-chevron-down {
+#topheader .central-content ul.list-top-left .fa-chevron-down {
   border-right: 2px solid #cbd6e2;
   padding-right: 14px;
 }
 
-body header #topheader .container .central-content  ul.list-top-right li {
+#topheader .central-content  ul.list-top-right li {
   list-style-type: none;
   display: inline-block;
   font-size: 17px;
   color: #33475b;
 }
 
-body header #topheader .container .central-content ul.list-top-right li.log-in-logo {
+#topheader .central-content ul.list-top-right li.log-in-logo {
   border: 1px solid #ff7859;
   border-radius: 5px;
   background: white;
@@ -107,7 +130,7 @@ body header #topheader .container .central-content ul.list-top-right li.log-in-l
   font-weight: 600;
 }
 
-body header #topheader .central-content ul.list-top-right li.orange-button {
+#topheader .central-content ul.list-top-right li.orange-button {
   border-radius: 4px;
   background: #ff7859;
   color: white;
@@ -118,62 +141,58 @@ body header #topheader .central-content ul.list-top-right li.orange-button {
 /* ends top header */
 
 /* nav menu */
-body header #nav-menu .container .central-content {
+#nav-menu .central-content {
   padding: 15px 0;
 }
 
-body header #nav-menu .container .central-content .logo-hubspot {
+#nav-menu .central-content .logo-hubspot {
  width: 44%;
  padding: 10px;
 }
 
-body header #nav-menu .container .central-content .list ul li {
+#nav-menu .central-content .list ul li {
   padding:15px 15px;
   display: inline-block;
   font-size: 16px;
 }
 
-body header #nav-menu .container .central-content  li i {
+#nav-menu .central-content  li i {
   padding:0 15px;
 }
 /* ends navi menu */
 
 /* jumbotron */
-body header #jumbotron {
+#jumbotron {
   background-color: #fff5ef;
-  height: 542px;
-  background-size: 79%;
-  background-position: 79%;
+  height: 529px;
   background-repeat: no-repeat;
   background-image: url(../img/jumbotron.png);
-  background-position-y: 24%;
+  background-position: center;
+  background-position-x: 58%;
 }
 
-body header #jumbotron .container .jumbotron-text {
-  width: 700px;
-}
-
-body header #jumbotron .container .jumbotron-text {
+#jumbotron .jumbotron-text {
   text-align: left;
   color: #33465b;
   position: absolute;
   top: 15%;
+  width: 700px;
 }
 
-body header #jumbotron .container .jumbotron-text h1 {
-  font-size: 66px;
+#jumbotron .jumbotron-text h1 {
+  font-size: 55px;
   font-weight: 600;
   padding-bottom: 10px;
 }
 
-body header #jumbotron .container .jumbotron-text p {
+#jumbotron .jumbotron-text p {
   padding: 25px 0;
   font-weight: 100;
   font-size: 17px;
   font-weight: 500;
 }
 
-body header #jumbotron .container .jumbotron-text a.orange-button {
+#jumbotron .jumbotron-text a.orange-button {
   border-radius: 4px;
   background: #ff7859;
   color: white;
@@ -191,33 +210,33 @@ body .breaking-row {
 }
 
 /* main upper section*/
-main section.upper-section {
+.upper-section {
   background-color: #f4f9fd;
 }
 
-main section.upper-section .container .upper-pres {
+.upper-section .upper-pres {
   text-align: center;
   color: #33465b;
   padding: 48px 0;
 }
 
-main section.upper-section .container .upper-pres .imagecube img {
+.upper-section .upper-pres .imagecube img {
   width: 20%;
 }
 
-main section.upper-section .container .upper-pres .text-undercube h2 {
+.upper-section .upper-pres .text-undercube h2 {
   font-size: 36px;
   font-weight: 600;
   padding: 30px 0;
 }
 
-main section.upper-section .container .upper-pres .text-undercube p {
+.upper-section .upper-pres .text-undercube p {
   font-size: 20px;
   font-weight: 400;
   padding: 0 45px;
 }
 
-main section.upper-section .container .up-main-container {
+.upper-section .up-main-container {
   background: white;
   width: 100%;
   border-radius: 18px;
@@ -225,17 +244,17 @@ main section.upper-section .container .up-main-container {
   margin-bottom: 55px;
 }
 
-main section.upper-section .container .up-main-container .left-main-up-cont {
+.upper-section .up-main-container .left-main-up-cont {
   text-align: center;
   padding: 65px 55px;
 }
 
-main section.upper-section .container .up-main-container .left-main-up-cont .image-book img {
+.upper-section .up-main-container .left-main-up-cont .image-book img {
   width: 62%;
   padding-bottom: 30px;
 }
 
-main section.upper-section .container .up-main-container .left-main-up-cont .button-learnmore a.orange-button {
+.upper-section .up-main-container .left-main-up-cont .button-learnmore a.orange-button {
   border-radius: 4px;
   background: #ff7859;
   color: white;
@@ -244,24 +263,24 @@ main section.upper-section .container .up-main-container .left-main-up-cont .but
   font-weight: 600;
 }
 
-main section.upper-section .container .up-main-container .right-main-up-cont {
+.upper-section .up-main-container .right-main-up-cont {
   width: 68%;
   padding:45px 0;
 }
 
-main section.upper-section .container .up-main-container .right-main-up-cont .text-right-up-cont h3 {
+.upper-section .up-main-container .right-main-up-cont .text-right-up-cont h3 {
   font-size: 25px;
   padding: 25px 0;
 }
 
-main section.upper-section .container .up-main-container .right-main-up-cont .text-right-up-cont span.popolar-feat {
+.upper-section .up-main-container .right-main-up-cont .text-right-up-cont span.popolar-feat {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 21px;
   padding: 15px 0;
 }
 
-main section.upper-section .container .up-main-container .right-main-up-cont .text-right-up-cont span hr {
+.upper-section .up-main-container .right-main-up-cont .text-right-up-cont span hr {
   display: inline-block;
   vertical-align: middle;
   width: 64%;
@@ -269,18 +288,18 @@ main section.upper-section .container .up-main-container .right-main-up-cont .te
   margin-left: 52px;
 }
 
-main section.upper-section .container .up-main-container .right-main-up-cont .text-right-up-cont p {
+.upper-section .up-main-container .right-main-up-cont .text-right-up-cont p {
   font-size: 18px;
   font-weight: 400;
   padding: 15px 0;
 }
 
-main section.upper-section .container .up-main-container .right-main-up-cont .text-right-up-cont ul li {
+.upper-section .up-main-container .right-main-up-cont .text-right-up-cont ul li {
   display:inline-block;
   padding: 24px 0;
 }
 
-main section.upper-section .container .middle-container .column {
+.upper-section .middle-container .column {
   width: 30%;
   text-align: center;
   background: white;
@@ -289,46 +308,46 @@ main section.upper-section .container .middle-container .column {
   margin-bottom: 50px;
 }
 
-main section.upper-section .container .middle-container .column:nth-child(2) {
+.upper-section .middle-container .column:nth-child(2) {
   margin: 0 5%;
 }
 
-main section.upper-section .container .middle-container .column .marketing-image img {
+.upper-section .middle-container .column .marketing-image img {
   height: 146px;
   padding: 19px;
 }
 
-main section.upper-section .container .middle-container .column .text {
+.upper-section .middle-container .column .text {
   padding: 1px;
 }
 
-main section.upper-section .container .middle-container .column .text h3 {
+.upper-section .middle-container .column .text h3 {
   font-size: 23px
 }
 
-main section.upper-section .container .middle-container .column .text p {
+.upper-section .middle-container .column .text p {
   padding: 29px;
   font-weight: 500;
 }
 
-main section.upper-section .container .middle-container .column hr {
+.upper-section .middle-container .column hr {
   margin: 21px 46px;
   border: 1px solid;
 }
 
-main section.upper-section .container .middle-container .column ul.pop-feat-list {
+.upper-section .middle-container .column ul.pop-feat-list {
   padding: 35px;
 }
 
-main section.upper-section .container .middle-container .column ul.pop-feat-list li {
+.upper-section .middle-container .column ul.pop-feat-list li {
   text-align: left;
 }
 
-main section.upper-section .container .middle-container .column .button-learnmore {
+.upper-section .middle-container .column .button-learnmore {
   padding-bottom: 23px;
 }
 
-main section.upper-section .container .middle-container .column .button-learnmore a.orange-button {
+.upper-section .middle-container .column .button-learnmore a.orange-button {
   border-radius: 4px;
   background: #ff7859;
   color: white;
@@ -340,33 +359,33 @@ main section.upper-section .container .middle-container .column .button-learnmor
 /* ends main upper section */
 
 /* lower-section */
-main section.lower-section {
+.lower-section {
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 
 /* main content */
-main section.lower-section .main-content {
+.lower-section .main-content {
   padding: 60px 0;
 }
 
-main section.lower-section .main-content .text-content {
+.lower-section .main-content .text-content {
   text-align: center;
   padding: 50px 0px;
   color: white;
 }
 
-main section.lower-section .main-content .text-content h2 {
+.lower-section .main-content .text-content h2 {
   font-size: 30px;
   margin:18px 0;
 }
 
-main section.lower-section .main-content .text-content p {
+.lower-section .main-content .text-content p {
   font-size: 18px;
   margin: 18px 0;
 }
 
 /* grid */
-main section.lower-section .main-content .grid-content {
+.lower-section .main-content .grid-content {
   padding: 30px;
   width: 24%;
   text-align: center;
@@ -375,23 +394,23 @@ main section.lower-section .main-content .grid-content {
   display: inline-block;
 }
 
-main section.lower-section .main-content .grid-content:nth-child(n+5) {
+.lower-section .main-content .grid-content:nth-child(n+5) {
   border-bottom: 0;
 }
 
-main section.lower-section .main-content .grid-content:nth-child(4n) {
+.lower-section .main-content .grid-content:nth-child(4n) {
   border-right: 0;
 }
 
-main section.lower-section .main-content .grid-content .grid-icon {
+.lower-section .main-content .grid-content .grid-icon {
   margin-bottom: 15px;
 }
 
-main section.lower-section .main-content .grid-content .grid-text {
+.lower-section .main-content .grid-content .grid-text {
   color: #fff;
 }
 
-main section.lower-section .main-content .grid-content .grid-text h2 {
+.lower-section .main-content .grid-content .grid-text h2 {
   position: relative;
   padding-right: 10px;
   position: relative;
@@ -399,7 +418,7 @@ main section.lower-section .main-content .grid-content .grid-text h2 {
   font-size: 46px;
 }
 
-main section.lower-section .main-content .grid-content .grid-text h2::after {
+.lower-section .main-content .grid-content .grid-text h2::after {
   content: "+";
   display: inline-block;
   position: relative;
@@ -408,12 +427,139 @@ main section.lower-section .main-content .grid-content .grid-text h2::after {
   color: #fff;
   font-size: 40px;
   font-weight: 500;
-
 }
 
-main section.lower-section .main-content .grid-content .grid-text p {
+.lower-section .main-content .grid-content .grid-text p {
   font-size: 12px;
 }
 /* ends grid */
-/* ends main content */
 /* end lower-section */
+
+/* customer section */
+.customer-section .content-section {
+  padding: 70px 0 0;
+}
+
+.customer-section .content-section .content-customers .text {
+ width: 24%;
+ margin-right: 50px;
+}
+
+.customer-section .content-section .content-customers .text h2 {
+  font-size: 45px;
+}
+
+.customer-section .content-section .content-customers .text p {
+  font-size: 19px;
+  margin-top: 21px;
+}
+
+.customer-section .content-section .content-customers .logo {
+ width: 70%;
+}
+
+.customer-section .content-section .content-customers .logo .company {
+  display: inline-block;
+  width: 21%;
+}
+
+.customer-section .content-section .content-customers .logo .company img {
+  width: 100%;
+  vertical-align: middle;
+  padding: 16px;
+}
+
+.customer-section .bottom-ads {
+  padding: 130px 0;
+}
+
+.customer-section .bottom-ads .ads-content .col{
+  width: 50%;
+}
+
+.customer-section .bottom-ads .ads-content .image img {
+  width: 28%;
+  position: absolute;
+  right: 4%;
+  bottom: 13%;
+}
+
+.customer-section .bottom-ads .ads-content .text h2 {
+  font-size: 45px;
+}
+
+.customer-section .bottom-ads .ads-content .text p {
+  font-size: 19px;
+}
+
+.customer-section .bottom-ads .ads-content .text .orange-button {
+  padding: 40px 0px;
+}
+
+.customer-section .bottom-ads .ads-content .text a.orange-button {
+  border-radius: 4px;
+  background: #ff7859;
+  color: white;
+  padding: 20px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+/* ends customer section */
+/* ends main content */
+
+/* footer */
+footer {
+  background: #33465b;
+  padding: 100px 0 0;
+}
+
+footer .footer-nav ul li.column-nav{
+  color: white;
+  display: inline-block;
+  padding: 10px 42px 0px 20px;
+}
+
+footer .footer-nav ul li.column-nav span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer .footer-nav ul li.nav-item {
+  padding: 10px 0;
+}
+
+footer ul.footer-box-list {
+  padding: 0;
+  display: inline-flex;
+}
+
+footer ul.footer-box-list li a i {
+  color: #cbd6e2;
+  padding: 13px;
+}
+
+footer .languages ul.languages-list {
+  display:inline-flex;
+}
+
+footer .languages {
+  padding: 27px 0 16px 0;
+  text-align: center;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+footer .languages ul.languages-list li {
+  font-size: 18px;
+  padding: 10px;
+}
+
+footer ul.vert-list {
+  padding: 20px 0px 13px;
+}
+
+footer .bottom-header {
+  padding: 30px 0;
+}
+
+/* ends footer */
