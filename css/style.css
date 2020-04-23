@@ -17,15 +17,26 @@ body a {
   color: inherit;
 }
 
+body a.orange-button {
+  border-radius: 4px;
+  background: #ff7859;
+  color: white;
+  padding: 20px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
 body i.fa-check-circle {
   color: #ff7759;
+  margin: 0px 8px 0px 0;
 }
 
 body ul {
   list-style-type: none;
 }
 
-body .popolar-feat {
+body span.popolar-feat {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 21px;
@@ -50,11 +61,6 @@ body .container .col {
   clear: both;
 }
 
-body .fa-check-circle {
-  color: orange;
-  margin: 0px 8px 0px 0;
-}
-
 .contact-button {
   padding:20px 0px;
 }
@@ -71,14 +77,12 @@ body .fa-check-circle {
 footer {
   color: #cbd6e2;
 }
-
 /* ends general rules */
 
 /* top header  */
 #topheader {
   background: #f5f8fa;
   border-bottom: 1px solid black;
-
 }
 
 #topheader .central-content {
@@ -97,10 +101,8 @@ footer {
 }
 
 #topheader .central-content  ul.list-top-left li {
-  list-style-type: none;
   display: inline-block;
   font-size: 17px;
-  color: #33475b;
 }
 
 #topheader .central-content  ul.list-top-left ul.list-language {
@@ -113,10 +115,8 @@ footer {
 }
 
 #topheader .central-content  ul.list-top-right li {
-  list-style-type: none;
   display: inline-block;
   font-size: 17px;
-  color: #33475b;
 }
 
 #topheader .central-content ul.list-top-right li.log-in-logo {
@@ -130,7 +130,7 @@ footer {
   font-weight: 600;
 }
 
-#topheader .central-content ul.list-top-right li.orange-button {
+#topheader .central-content ul.list-top-right li.orange-button-top-right {
   border-radius: 4px;
   background: #ff7859;
   color: white;
@@ -173,7 +173,6 @@ footer {
 
 #jumbotron .jumbotron-text {
   text-align: left;
-  color: #33465b;
   position: absolute;
   top: 15%;
   width: 700px;
@@ -187,18 +186,8 @@ footer {
 
 #jumbotron .jumbotron-text p {
   padding: 25px 0;
-  font-weight: 100;
   font-size: 17px;
   font-weight: 500;
-}
-
-#jumbotron .jumbotron-text a.orange-button {
-  border-radius: 4px;
-  background: #ff7859;
-  color: white;
-  padding: 20px 30px;
-  font-size: 14px;
-  font-weight: 600;
 }
 /* ends jumbotron */
 
@@ -216,7 +205,6 @@ body .breaking-row {
 
 .upper-section .upper-pres {
   text-align: center;
-  color: #33465b;
   padding: 48px 0;
 }
 
@@ -254,15 +242,6 @@ body .breaking-row {
   padding-bottom: 30px;
 }
 
-.upper-section .up-main-container .left-main-up-cont .button-learnmore a.orange-button {
-  border-radius: 4px;
-  background: #ff7859;
-  color: white;
-  padding: 20px 30px;
-  font-size: 14px;
-  font-weight: 600;
-}
-
 .upper-section .up-main-container .right-main-up-cont {
   width: 68%;
   padding:45px 0;
@@ -271,13 +250,6 @@ body .breaking-row {
 .upper-section .up-main-container .right-main-up-cont .text-right-up-cont h3 {
   font-size: 25px;
   padding: 25px 0;
-}
-
-.upper-section .up-main-container .right-main-up-cont .text-right-up-cont span.popolar-feat {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 21px;
-  padding: 15px 0;
 }
 
 .upper-section .up-main-container .right-main-up-cont .text-right-up-cont span hr {
@@ -317,10 +289,6 @@ body .breaking-row {
   padding: 19px;
 }
 
-.upper-section .middle-container .column .text {
-  padding: 1px;
-}
-
 .upper-section .middle-container .column .text h3 {
   font-size: 23px
 }
@@ -345,16 +313,6 @@ body .breaking-row {
 
 .upper-section .middle-container .column .button-learnmore {
   padding-bottom: 23px;
-}
-
-.upper-section .middle-container .column .button-learnmore a.orange-button {
-  border-radius: 4px;
-  background: #ff7859;
-  color: white;
-  padding: 20px 30px;
-  font-size: 14px;
-  font-weight: 600;
-  display: inline-block;
 }
 /* ends main upper section */
 
@@ -411,20 +369,12 @@ body .breaking-row {
 }
 
 .lower-section .main-content .grid-content .grid-text h2 {
-  position: relative;
-  padding-right: 10px;
-  position: relative;
   padding-right: 10px;
   font-size: 46px;
 }
 
 .lower-section .main-content .grid-content .grid-text h2::after {
   content: "+";
-  display: inline-block;
-  position: relative;
-  top: 0;
-  right: 0;
-  color: #fff;
   font-size: 40px;
   font-weight: 500;
 }
@@ -490,20 +440,11 @@ body .breaking-row {
 
 .customer-section .bottom-ads .ads-content .text p {
   font-size: 19px;
+  padding: 50px 0px;
 }
 
 .customer-section .bottom-ads .ads-content .text .orange-button {
-  padding: 40px 0px;
-}
-
-.customer-section .bottom-ads .ads-content .text a.orange-button {
-  border-radius: 4px;
-  background: #ff7859;
-  color: white;
-  padding: 20px 30px;
-  font-size: 14px;
-  font-weight: 600;
-  display: inline-block;
+  margin-bottom: 50px;
 }
 /* ends customer section */
 /* ends main content */
@@ -530,7 +471,6 @@ footer .footer-nav ul li.nav-item {
 }
 
 footer ul.footer-box-list {
-  padding: 0;
   display: inline-flex;
 }
 
@@ -562,4 +502,12 @@ footer .bottom-header {
   padding: 30px 0;
 }
 
+footer .bottom-header .footer-copyright {
+  float: right;
+  padding: 10px 50px 10px;
+}
+
+footer .bottom-header .footer-copyright a {
+  padding: 10px 10px;
+}
 /* ends footer */
